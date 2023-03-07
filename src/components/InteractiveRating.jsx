@@ -28,7 +28,7 @@ export default function InteractiveRating() {
           />
           <button
             onClick={() => setRating(ratingSelected)}
-            className="bg-orange rounded-full w-full py-2 text-white uppercase text-sm font-semibold hover:bg-white hover:text-orange"
+            className="bg-orange rounded-full w-full py-2 text-white uppercase text-sm font-semibold hover:bg-white hover:text-orange transition"
           >
             <p className="pt-1 tracking-widest">Submit</p>
           </button>
