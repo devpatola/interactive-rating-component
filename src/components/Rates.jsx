@@ -25,7 +25,7 @@ export default function Rates({ handleChange, ratingSelected }) {
             id={`rate-${rate}`}
             name="rate"
             onChange={(e) => handleChange(e.target.value)}
-            className="input[type='radio'] hidden"
+            className="hidden"
           />
           <span className="pt-1">{rate}</span>
         </label>
