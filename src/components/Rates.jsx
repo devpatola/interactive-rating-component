@@ -5,7 +5,7 @@ const rates = ["1", "2", "3", "4", "5"];
 export default function Rates({ handleChange, ratingSelected }) {
   const setColor = (currentRate) => {
     const defaultStyle =
-      "h-10 w-10 rounded-full flex items-center justify-center md:h-12 md:w-12";
+      "h-10 w-10 rounded-full flex items-center justify-center md:h-14 md:w-14 md:text-lg";
     const defaultColor =
       "bg-dark-blue text-light-gray hover:bg-medium-gray hover:text-white";
     const selectedColor = "bg-orange text-white";
